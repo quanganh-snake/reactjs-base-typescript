@@ -1,1 +1,2 @@
+echo "------- [HUSKY] Running pre-commit -------"
 npm run check:all
