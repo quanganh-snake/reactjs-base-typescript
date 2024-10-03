@@ -1,0 +1,20 @@
+@layer base {
+  :root {
+    --color-primary: #0284c7;
+    --color-secondary: #f3f4f6;
+    --bgr-base: #ffffff;
+    --bgr-secondary: #f3f4f6;
+  }
+  :root[data-theme='dark'] {
+    --color-primary: #bae6fd;
+    --color-secondary: #f3f4f6;
+    --bgr-base: #111827;
+    --bgr-secondary: #1f2937;
+  }
+  :root[data-theme='light'] {
+    --color-primary: #0284c7;
+    --color-secondary: #f3f4f6;
+    --bgr-base: #ffffff;
+    --bgr-secondary: #f3f4f6;
+  }
+}
